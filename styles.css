@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-image: url("cloud2.avif");
+    background-color: #ffffff;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    backdrop-filter: blur(5px);
+    filter: brightness(1.0); 
+
+      
+}
+
+
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+#about, #highlights, #registration, #contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size: larger;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ul {
+    color:rgb(0, 0, 0);
+    font-size: larger;
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
